@@ -8,6 +8,12 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
     font-size: 20px;
     font-weight: 300;
 }
+.navbar-brand {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #fff;
+}
 .footer {
     padding: 1rem 0rem;
 }
