@@ -31,6 +31,6 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
     .footer .col-md-4.col-12 {text-align: center !important;}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
     .categories {display: none;}
 }
