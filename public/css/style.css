@@ -1,4 +1,3 @@
-.demo-header {border-bottom: 1px solid #666;}
 a {color: #FF3636;}
 .categories .col-12 {margin:20px 0px;}
 .display-5 {margin-bottom: 8px;}
@@ -9,7 +8,6 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
     font-weight: 300;
 }
 .footer {
-    border-top: 1px solid #666;
     padding: 1rem 0rem;
 }
 .footer .col-md-8.col-12 {display: inline-block; float: left;}
@@ -17,6 +15,8 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
 .footer p {margin-bottom: 0px !important;}
 
 @media screen and (max-width: 767px){
+    .demo-header {border-bottom: 1px solid #666;}
+    .footer {border-top: 1px solid #666;}
     .footer .col-md-8.col-12 {text-align: center !important;}
     .footer .col-md-4.col-12 {text-align: center !important;}
 }
