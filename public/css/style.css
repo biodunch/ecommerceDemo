@@ -5,7 +5,7 @@ a:hover {cursor: pointer;}
 a:hover{color: #FF3636; text-decoration: underline;}
 body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
 .tagline {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
 }
 .navbar-brand {
@@ -63,10 +63,19 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
     font-weight: 700;
 }
 @media screen and (max-width: 767px){
-    .demo-header {border-bottom: 1px solid #666;}
-    .footer {border-top: 1px solid #666;}
+    .navbar1 {border-bottom: 1px solid #e9e9e9;}
+    .footer {border-top: 1px solid #e9e9e9;}
     .footer .col-md-8.col-12 {text-align: center !important;}
     .footer .col-md-4.col-12 {text-align: center !important;}
+    .carousel {display: none;}
+    .navbar-brand {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 26px;
+        font-weight: 400;
+        color: #000;
+    }
+    .display-5 {font-size: 20px !important; font-weight: 700;}
+    body,p {font-size: 12px;}
 }
 
 @media screen and (min-width: 767px) {
