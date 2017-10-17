@@ -13,10 +13,24 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
 .footer .col-md-8.col-12 {display: inline-block; float: left;}
 .footer .col-md-4.col-12 {display: inline-block; float: right;}
 .footer p {margin-bottom: 0px !important;}
-
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar-trans {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
 @media screen and (max-width: 767px){
     .demo-header {border-bottom: 1px solid #666;}
     .footer {border-top: 1px solid #666;}
     .footer .col-md-8.col-12 {text-align: center !important;}
     .footer .col-md-4.col-12 {text-align: center !important;}
+}
+
+@media screen and (max-width: 767px) {
+    .categories {display: none;}
 }
