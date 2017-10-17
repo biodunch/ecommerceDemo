@@ -33,4 +33,5 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
 
 @media screen and (min-width: 767px) {
     .categories {display: none;}
+    .navbar1 {display: none;}
 }
