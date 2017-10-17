@@ -1,5 +1,22 @@
+.demo-header {border-bottom: 1px solid #666;}
 a {color: #FF3636;}
+.categories .col-12 {margin:20px 0px;}
+.display-5 {margin-bottom: 8px;}
 a:hover{color: #FF3636; text-decoration: underline;}
 body,p {font-size: 14px}
-.footer .col-md-8.col-12 {display: inline-flex; float: left;}
+.tagline {
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer {
+    border-top: 1px solid #666;
+    padding: 1rem 0rem;
+}
+.footer .col-md-8.col-12 {display: inline-block; float: left;}
 .footer .col-md-4.col-12 {display: inline-block; float: right;}
+.footer p {margin-bottom: 0px !important;}
+
+@media screen and (max-width: 767px){
+    .footer .col-md-8.col-12 {text-align: center !important;}
+    .footer .col-md-4.col-12 {text-align: center !important;}
+}
