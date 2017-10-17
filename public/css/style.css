@@ -1,8 +1,8 @@
-a {color: #FF3636;}
+a {color: #f96332}
 a:hover {cursor: pointer;}
 .categories .col-12 {margin:20px 0px;}
 .display-5 {margin-bottom: 8px;}
-a:hover{color: #FF3636; text-decoration: underline;}
+a:hover{color: #f96332; text-decoration: underline;}
 body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
 .tagline {
     font-size: 18px;
@@ -12,7 +12,7 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
     font-family: 'Libre Baskerville', serif;
     font-size: 38px;
     font-weight: 400;
-    color: #fff;
+    color: #f96332;
 }
 .footer {
     padding: 1rem 0rem;
@@ -72,7 +72,7 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
         font-family: 'Libre Baskerville', serif;
         font-size: 26px;
         font-weight: 400;
-        color: #000;
+        color: #f96332;
     }
     .display-5 {font-size: 20px !important; font-weight: 700;}
     body,p {font-size: 12px;}
