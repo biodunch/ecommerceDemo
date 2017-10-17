@@ -6492,13 +6492,13 @@ button.close {
     -webkit-flex: 1 0 auto;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
-    max-width: 30px;
+    /*max-width: 30px;
     height: 3px;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, .5)
+    background-color: rgba(255, 255, 255, .5)*/
 }
 
 .carousel-indicators li::before {
