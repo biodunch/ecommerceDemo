@@ -1,4 +1,5 @@
 a {color: #FF3636;}
+a:hover {cursor: pointer;}
 .categories .col-12 {margin:20px 0px;}
 .display-5 {margin-bottom: 8px;}
 a:hover{color: #FF3636; text-decoration: underline;}
@@ -23,6 +24,37 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
     position: absolute;
     width: 100%;
     z-index: 999;
+}
+.carousel-indicators{
+    position: absolute !important;
+    right: 0px !important;
+    top: 33% !important;
+    left: 0px !important;
+    z-index: 15 !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    flex-direction: column !important;
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    padding-left: 0 !important;
+    margin-left: 9% !important;
+    list-style: none !important;
+    color: #fff;
+}
+.carousel-indicators .active {
+    text-decoration: underline;
+    background-color: transparent !important;
+}
+
+.carousel-indicators:hover {cursor: pointer;}
+
+.carousel-indicators .display-5 {
+    color: #fff;
+    font-weight: 700;
 }
 @media screen and (max-width: 767px){
     .demo-header {border-bottom: 1px solid #666;}
