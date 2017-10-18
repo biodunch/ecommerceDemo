@@ -50,6 +50,7 @@ body{font-size: 14px; font-family: 'Montserrat', sans-serif;}
     margin-left: 9% !important;
     list-style: none !important;
     color: #fff;
+    width: 30%;
 }
 .carousel-indicators .active {
     text-decoration: underline;
